@@ -1,0 +1,133 @@
+# ========================================================================
+# 배리어프리 보행자 네비게이션 — .gitignore
+# ========================================================================
+
+# ────────────────────────────────────────────────────────────
+# OS / 에디터
+# ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# ────────────────────────────────────────────────────────────
+# 백엔드 — Python / Django
+# ────────────────────────────────────────────────────────────
+# 바이트코드 / 캐시
+back/**/__pycache__/
+back/**/*.py[cod]
+back/**/*$py.class
+back/.pytest_cache/
+back/.mypy_cache/
+back/.ruff_cache/
+
+# 가상환경
+back/venv/
+back/.venv/
+back/env/
+back/ENV/
+
+# Django 런타임 산출물
+back/*.log
+back/db.sqlite3
+back/db.sqlite3-journal
+back/media/
+back/staticfiles/
+back/static_collected/
+
+# ★ DB 마이그레이션은 커밋한다 (협업 시 스키마 동기화 필수).
+#   다만 자동 생성된 __pycache__ 만 위에서 제외됨.
+
+# 비밀 정보 / 환경 변수
+back/.env
+back/.env.*
+back/*.pem
+back/secrets.json
+back/local_settings.py
+
+# 패키징 / 배포
+back/build/
+back/dist/
+back/*.egg-info/
+back/.coverage
+back/htmlcov/
+
+# ────────────────────────────────────────────────────────────
+# 프론트엔드 — Flutter / Dart
+# ────────────────────────────────────────────────────────────
+front/.dart_tool/
+front/.flutter-plugins
+front/.flutter-plugins-dependencies
+front/.packages
+front/.pub-cache/
+front/.pub/
+front/build/
+
+# 잠금 파일은 모바일 앱에선 커밋 권장
+# (라이브러리 패키지를 만드는 게 아니므로 pubspec.lock 은 추적함)
+
+# 생성 코드
+front/**/*.g.dart
+front/**/*.freezed.dart
+front/**/*.mocks.dart
+
+# 단일 파일 통합본 (참고용 — 빌드 제외)
+front/lib/main_combined.dart.example
+
+# ── Android ──
+front/android/.gradle/
+front/android/captures/
+front/android/local.properties
+front/android/**/gradle-wrapper.jar
+front/android/.idea/
+front/android/app/release/
+front/android/app/debug/
+front/android/key.properties
+front/android/app/*.jks
+front/android/app/*.keystore
+
+# ── iOS ──
+front/ios/Pods/
+front/ios/.symlinks/
+front/ios/Flutter/Flutter.framework
+front/ios/Flutter/Flutter.podspec
+front/ios/Flutter/App.framework
+front/ios/Flutter/flutter_assets/
+front/ios/Flutter/ephemeral/
+front/ios/Runner.xcworkspace/xcuserdata/
+front/ios/Runner.xcodeproj/xcuserdata/
+front/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+front/ios/ServiceDefinitions.json
+front/ios/GoogleService-Info.plist
+
+# ── macOS / Windows / Linux 데스크톱 빌드 ──
+front/macos/Flutter/ephemeral/
+front/macos/Pods/
+front/windows/flutter/ephemeral/
+front/linux/flutter/ephemeral/
+
+# ── Web ──
+front/web/
+
+# ────────────────────────────────────────────────────────────
+# 기타
+# ────────────────────────────────────────────────────────────
+# 임시 / 백업
+*.bak
+*.tmp
+*.orig
+
+# 압축 파일 (배포 산출물)
+*.zip
+*.tar.gz
+
+# 데이터 덤프 (대용량 GIS 데이터)
+*.dump
+*.sql.gz
+fixtures/local/
