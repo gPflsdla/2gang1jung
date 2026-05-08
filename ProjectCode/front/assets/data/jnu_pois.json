@@ -1,0 +1,636 @@
+[
+  {
+    "id": "engineering_4",
+    "name": "공과대학 4호관",
+    "alias": [
+      "공대4호관",
+      "공학4호관",
+      "공과대 4호관",
+      "공사",
+      "공4"
+    ],
+    "lat": 33.454737,
+    "lng": 126.565062,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "engineering_3",
+    "name": "공과대학 3호관",
+    "alias": [
+      "공대3호관",
+      "공학3호관",
+      "공과대 3호관",
+      "공3"
+    ],
+    "lat": 33.456503,
+    "lng": 126.565353,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "engineering_2",
+    "name": "공과대학 2호관",
+    "alias": [
+      "공대2호관",
+      "공학2호관",
+      "공과대 2호관",
+      "공2"
+    ],
+    "lat": 33.457638,
+    "lng": 126.565962,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "engineering_1",
+    "name": "공과대학 1호관",
+    "alias": [
+      "공대1호관",
+      "공학1호관",
+      "공과대 1호관",
+      "공1"
+    ],
+    "lat": 33.457038,
+    "lng": 126.565452,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "liberal_arts_lecture_building",
+    "name": "교양강의동",
+    "alias": [
+      "교양",
+      "교양동",
+      "교양강의동",
+      "교양강의실"
+    ],
+    "lat": 33.455698,
+    "lng": 126.564419,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_nursing",
+    "name": "간호대학",
+    "alias": [
+      "간호대",
+      "간호학과",
+      "간호대학"
+    ],
+    "lat": 33.456048,
+    "lng": 126.564461,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_education",
+    "name": "사범대학",
+    "alias": [
+      "사범대",
+      "사대",
+      "사범대학"
+    ],
+    "lat": 33.455163,
+    "lng": 126.563232,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "student_center",
+    "name": "학생회관",
+    "alias": [
+      "학관",
+      "학생회관",
+      "학생식당",
+      "학생회관 식당"
+    ],
+    "lat": 33.454959,
+    "lng": 126.56049,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "main_administration_building",
+    "name": "본관",
+    "alias": [
+      "본관",
+      "대학본관",
+      "제주대 본관",
+      "본부",
+      "대학본부"
+    ],
+    "lat": 33.455965,
+    "lng": 126.561878,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_social_sciences",
+    "name": "사회과학대학",
+    "alias": [
+      "사회과학대",
+      "사과대",
+      "사회대",
+      "사회과학대학"
+    ],
+    "lat": 33.454794,
+    "lng": 126.561757,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "gymnasium",
+    "name": "체육관",
+    "alias": [
+      "체육관",
+      "실내체육관",
+      "제주대 체육관"
+    ],
+    "lat": 33.456058,
+    "lng": 126.560482,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "sports_field",
+    "name": "운동장",
+    "alias": [
+      "운동장",
+      "대운동장",
+      "경기장",
+      "운동장 시설"
+    ],
+    "lat": 33.455382,
+    "lng": 126.559436,
+    "type": "facility",
+    "radius_m": 90
+  },
+  {
+    "id": "ara_muse_hall",
+    "name": "아라뮤즈홀",
+    "alias": [
+      "아라뮤즈홀",
+      "뮤즈홀",
+      "공연장",
+      "아라홀"
+    ],
+    "lat": 33.453663,
+    "lng": 126.559518,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "faculty_house",
+    "name": "교수회관",
+    "alias": [
+      "교수회관",
+      "교수 회관"
+    ],
+    "lat": 33.452849,
+    "lng": 126.560006,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "art_museum",
+    "name": "미술관",
+    "alias": [
+      "미술관",
+      "제주대 미술관",
+      "전시관"
+    ],
+    "lat": 33.452935,
+    "lng": 126.561803,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "central_library",
+    "name": "도서관",
+    "alias": [
+      "도서관",
+      "중앙도서관",
+      "중도",
+      "제주대 도서관"
+    ],
+    "lat": 33.452569,
+    "lng": 126.560873,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "golf_academy",
+    "name": "골프아카데미",
+    "alias": [
+      "골프아카데미",
+      "골프장",
+      "골프"
+    ],
+    "lat": 33.451693,
+    "lng": 126.56299,
+    "type": "facility",
+    "radius_m": 90
+  },
+  {
+    "id": "music_building",
+    "name": "음악관",
+    "alias": [
+      "음악관",
+      "음대",
+      "음악대학",
+      "음악학과"
+    ],
+    "lat": 33.452426,
+    "lng": 126.562868,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "sculpture_studio",
+    "name": "조소실습관",
+    "alias": [
+      "조소실습관",
+      "조소 실습관",
+      "조소실"
+    ],
+    "lat": 33.452502,
+    "lng": 126.562183,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_medicine",
+    "name": "의과대학",
+    "alias": [
+      "의대",
+      "의과대",
+      "의과대학",
+      "의학대학"
+    ],
+    "lat": 33.452866,
+    "lng": 126.563881,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "lifelong_education_center",
+    "name": "평생교육원",
+    "alias": [
+      "평생교육원",
+      "평교원",
+      "평생교육"
+    ],
+    "lat": 33.45229,
+    "lng": 126.560156,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_veterinary_science",
+    "name": "수의과학대학",
+    "alias": [
+      "수의대",
+      "수의과대학",
+      "수의과학대학",
+      "수의학과"
+    ],
+    "lat": 33.452083,
+    "lng": 126.558608,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "veterinary_hospital",
+    "name": "제주대학교 부설동물병원",
+    "alias": [
+      "동물병원",
+      "부설동물병원",
+      "제주대 동물병원",
+      "수의대 동물병원"
+    ],
+    "lat": 33.451359,
+    "lng": 126.558789,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "humanities_2",
+    "name": "인문대학 2호관",
+    "alias": [
+      "인문대2호관",
+      "인문대 2호관",
+      "인문대학 2호관",
+      "인2"
+    ],
+    "lat": 33.452831,
+    "lng": 126.558416,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "humanities_1",
+    "name": "인문대학 1호관",
+    "alias": [
+      "인문대1호관",
+      "인문대 1호관",
+      "인문대학 1호관",
+      "인1"
+    ],
+    "lat": 33.453442,
+    "lng": 126.558404,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "law_school",
+    "name": "법학전문대학원",
+    "alias": [
+      "법전원",
+      "로스쿨",
+      "법학전문대학원",
+      "법학전문대"
+    ],
+    "lat": 33.453549,
+    "lng": 126.560352,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_pharmacy",
+    "name": "약학대학",
+    "alias": [
+      "약대",
+      "약학대",
+      "약학대학",
+      "약학과"
+    ],
+    "lat": 33.457415,
+    "lng": 126.560125,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "natural_sciences_2",
+    "name": "자연과학대학 2호관",
+    "alias": [
+      "자연대2호관",
+      "자연대 2호관",
+      "자연과학대학 2호관",
+      "자과대 2호관"
+    ],
+    "lat": 33.458445,
+    "lng": 126.560406,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "university_museum",
+    "name": "제주대학교 박물관",
+    "alias": [
+      "박물관",
+      "제주대 박물관",
+      "제주대학교 박물관"
+    ],
+    "lat": 33.458686,
+    "lng": 126.561822,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "citrus_flower_science_center",
+    "name": "감귤하훼과학기술센터",
+    "alias": [
+      "감귤화훼",
+      "감귤화훼과학기술센터",
+      "감귤센터",
+      "하훼센터",
+      "화훼센터"
+    ],
+    "lat": 33.458816,
+    "lng": 126.56245,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "college_of_applied_life_sciences",
+    "name": "생명자원과학대학",
+    "alias": [
+      "생명대",
+      "생명자원대",
+      "생명자원과학대학",
+      "생자대"
+    ],
+    "lat": 33.458236,
+    "lng": 126.562662,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "eco_friendly_agriculture_research_institute",
+    "name": "친환경농업연구소",
+    "alias": [
+      "친환경농업연구소",
+      "농업연구소",
+      "친환경농업"
+    ],
+    "lat": 33.457771,
+    "lng": 126.562921,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "natural_sciences_1",
+    "name": "자연과학대학 1호관",
+    "alias": [
+      "자연대1호관",
+      "자연대 1호관",
+      "자연과학대학 1호관",
+      "자과대 1호관"
+    ],
+    "lat": 33.458094,
+    "lng": 126.564693,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "nuclear_science_research_institute",
+    "name": "원자력과학기술연구소",
+    "alias": [
+      "원자력과학기술연구소",
+      "원자력연구소",
+      "원자력"
+    ],
+    "lat": 33.458213,
+    "lng": 126.565752,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "ocean_sciences_3",
+    "name": "해양과학대학 3호관",
+    "alias": [
+      "해양대3호관",
+      "해양대 3호관",
+      "해양과학대학 3호관"
+    ],
+    "lat": 33.457334,
+    "lng": 126.564306,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "ocean_sciences_1",
+    "name": "해양과학대학 1호관",
+    "alias": [
+      "해양대1호관",
+      "해양대 1호관",
+      "해양과학대학 1호관"
+    ],
+    "lat": 33.457103,
+    "lng": 126.563853,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "translation_graduate_school",
+    "name": "제주대학교 통번역대학원",
+    "alias": [
+      "통번역대학원",
+      "통번역",
+      "제주대 통번역대학원"
+    ],
+    "lat": 33.456524,
+    "lng": 126.563936,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "engineering_factory",
+    "name": "공과대학 부설공장",
+    "alias": [
+      "부설공장",
+      "공대부설공장",
+      "공과대학 부설공장",
+      "공장"
+    ],
+    "lat": 33.45579,
+    "lng": 126.565898,
+    "type": "building",
+    "radius_m": 45
+  },
+  {
+    "id": "ocean_sciences_4",
+    "name": "해양과학대학 4호관",
+    "alias": [
+      "해양대4호관",
+      "해양대 4호관",
+      "해양과학대학 4호관"
+    ],
+    "lat": 33.454971,
+    "lng": 126.566323,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "dormitory_6",
+    "name": "학생생활관 6호관",
+    "alias": [
+      "생활관6호관",
+      "생활관 6호관",
+      "기숙사6호관",
+      "기숙사 6호관",
+      "학생생활관 6호관"
+    ],
+    "lat": 33.45343,
+    "lng": 126.557255,
+    "type": "dormitory",
+    "radius_m": 45
+  },
+  {
+    "id": "dormitory_5",
+    "name": "학생생활관 5호관",
+    "alias": [
+      "생활관5호관",
+      "생활관 5호관",
+      "기숙사5호관",
+      "기숙사 5호관",
+      "학생생활관 5호관"
+    ],
+    "lat": 33.452406,
+    "lng": 126.556815,
+    "type": "dormitory",
+    "radius_m": 45
+  },
+  {
+    "id": "dormitory_3",
+    "name": "학생생활관 3호관",
+    "alias": [
+      "생활관3호관",
+      "생활관 3호관",
+      "기숙사3호관",
+      "기숙사 3호관",
+      "학생생활관 3호관"
+    ],
+    "lat": 33.451757,
+    "lng": 126.557315,
+    "type": "dormitory",
+    "radius_m": 45
+  },
+  {
+    "id": "dormitory_4",
+    "name": "학생생활관 4호관",
+    "alias": [
+      "생활관4호관",
+      "생활관 4호관",
+      "기숙사4호관",
+      "기숙사 4호관",
+      "학생생활관 4호관"
+    ],
+    "lat": 33.451299,
+    "lng": 126.558152,
+    "type": "dormitory",
+    "radius_m": 45
+  },
+  {
+    "id": "dormitory_2",
+    "name": "학생생활관 2호관",
+    "alias": [
+      "생활관2호관",
+      "생활관 2호관",
+      "기숙사2호관",
+      "기숙사 2호관",
+      "학생생활관 2호관"
+    ],
+    "lat": 33.450386,
+    "lng": 126.557498,
+    "type": "dormitory",
+    "radius_m": 45
+  },
+  {
+    "id": "guest_house",
+    "name": "게스트하우스",
+    "alias": [
+      "게스트하우스",
+      "게하",
+      "제주대 게스트하우스"
+    ],
+    "lat": 33.452295,
+    "lng": 126.55965,
+    "type": "building",
+    "radius_m": 40
+  },
+  {
+    "id": "digital_library",
+    "name": "디지털도서관",
+    "alias": [
+      "디지털도서관",
+      "디도",
+      "디지털 도서관"
+    ],
+    "lat": 33.452186,
+    "lng": 126.560884,
+    "type": "building",
+    "radius_m": 45
+  }
+]

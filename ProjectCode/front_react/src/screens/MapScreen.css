@@ -1,0 +1,272 @@
+/* ========================================================================
+   배리어프리 보행자 네비게이션 — MapScreen 스타일
+   ========================================================================
+   Flutter 의 Material Design 톤을 최대한 유지한다.
+   - 출발지: #2E7D32 (그린)
+   - 도착지: #C62828 (레드)
+   - 경로:  #1976D2 (블루)
+   - 엘리베이터: #3F51B5 (인디고)
+   ======================================================================== */
+
+.bf-app {
+  position: fixed;
+  inset: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI",
+    Roboto, "Helvetica Neue", sans-serif;
+  color: #212121;
+  overflow: hidden;
+}
+
+/* ── 커스텀 마커 (출발/도착) ─────────────────────────────────── */
+.bf-marker-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+.bf-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bf-marker-label {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.bf-marker-icon {
+  margin-top: 2px;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+}
+
+/* ── 엘리베이터 마커 ─────────────────────────────────────────── */
+.bf-elevator-wrapper {
+  background: transparent !important;
+  border: none !important;
+}
+.bf-elevator-marker {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3f51b5;
+  border: 2.5px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── 상단 안내 배너 ─────────────────────────────────────────── */
+.bf-top-banner {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.bf-top-banner-icon {
+  font-size: 18px;
+}
+.bf-top-banner-text {
+  flex: 1;
+}
+
+/* ── 로딩 오버레이 ──────────────────────────────────────────── */
+.bf-loading-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1500;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bf-loading-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px 32px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+.bf-spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid #e0e0e0;
+  border-top-color: #1976d2;
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  animation: bf-spin 0.9s linear infinite;
+}
+@keyframes bf-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bf-loading-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+.bf-loading-sub {
+  font-size: 12px;
+  color: #757575;
+  margin: 4px 0 0;
+}
+
+/* ── 하단 경로 정보 패널 ────────────────────────────────────── */
+.bf-info-panel {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 1000;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.bf-info-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px 12px;
+  background: #2e7d32;
+  color: #fff;
+}
+.bf-info-header-icon {
+  font-size: 28px;
+}
+.bf-info-header-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.bf-info-header-label {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.bf-info-header-distance {
+  font-size: 24px;
+  font-weight: 700;
+}
+.bf-info-header-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.bf-info-elevators {
+  padding: 12px 20px 0;
+}
+.bf-info-elevators-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3f51b5;
+}
+.bf-info-elevators-list {
+  margin: 4px 0 0 28px;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  color: #555;
+}
+.bf-info-elevators-list li {
+  margin: 2px 0;
+}
+.bf-info-note {
+  padding: 12px 20px 16px;
+  font-size: 12px;
+  color: #757575;
+}
+
+/* ── 에러 패널 ──────────────────────────────────────────────── */
+.bf-error-panel {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #fff3f0;
+  border: 1px solid #ffcdd2;
+  border-radius: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.1);
+}
+.bf-error-icon {
+  font-size: 28px;
+}
+.bf-error-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #555;
+}
+.bf-error-text strong {
+  color: #c62828;
+  font-size: 14px;
+}
+.bf-error-retry {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  color: #c62828;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.15s;
+}
+.bf-error-retry:hover {
+  background: rgba(198, 40, 40, 0.1);
+}
+
+/* ── 초기화 플로팅 액션 버튼 ───────────────────────────────── */
+.bf-fab-clear {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1100;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  color: #c62828;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s;
+}
+.bf-fab-clear:hover {
+  transform: scale(1.05);
+}
+
+/* 정보 패널이 떠있을 때 FAB 가 가려지지 않도록 위로 띄움 */
+.bf-info-panel + .bf-fab-clear,
+.bf-info-panel ~ .bf-fab-clear {
+  bottom: 240px;
+}
